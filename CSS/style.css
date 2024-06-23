@@ -199,5 +199,67 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 175px;
+    max-width: 70%;
+}
+
+
+@media (min-width: 992px) {
+    body {
+        padding: 60px 0;
+        display: flex;
+        justify-content: center;
+        background-color: var(--eggShell);
+    }
+    .wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 800px;
+        overflow: hidden;
+        border-radius: 15px;
+    }
+    .wrapper__card {
+        background-color: white;
+    }
+    .wrapper__image-box {
+        padding: 30px;
+        background-color: white;
+    }
+    .image-box__image {
+        border-radius: 10px;
+    }
+}
+@media (min-width: 1200px) {
+    .wrapper {
+        width: 1000px;
+    }
+    .wrapper h1:first-of-type {
+        font-size: 55px;
+    }
+    .wrapper__card p:first-of-type {
+        font-size: 19px;
+    }
+    .card__box {
+        border-radius: 8px;
+        padding: 25px;
+        font-size: 26px;
+    }
+    .card__box li {
+        font-size: 19px;
+    }
+    .sec-head {
+        font-size: 37px;
+    }
+    .card__ingre ul li {
+        font-size: 20px;
+    }
+    .card__instr li {
+        font-size: 20px;
+    }
+    .card__nutr p:first-of-type {
+        font-size: 20px;
+    }
+    .card__nutr .list .b {
+        font-size: 21px;
+    }
 }
